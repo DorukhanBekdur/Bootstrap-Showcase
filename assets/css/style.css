@@ -118,3 +118,14 @@
     color: white;
     border-radius: 10px 10px 0 0;
 }
+
+.progress {
+    height: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
