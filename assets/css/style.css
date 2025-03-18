@@ -129,3 +129,8 @@
     font-weight: bold;
     font-size: 0.9rem;
 }
+
+.spinner-border,
+.spinner-grow {
+    margin: 10px;
+}
