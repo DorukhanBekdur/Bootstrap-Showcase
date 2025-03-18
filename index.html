@@ -19,31 +19,46 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Bootstrap Showcase</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Bootstrap Showcase</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="docs.html">Docs</a></li>
                     <li class="nav-item"><a class="nav-link" href="components/buttons.html">Buttons</a></li>
                     <li class="nav-item"><a class="nav-link" href="components/cards.html">Cards</a></li>
                     <li class="nav-item"><a class="nav-link" href="components/forms.html">Forms</a></li>
                     <li class="nav-item"><a class="nav-link" href="components/alerts.html">Alerts</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="components/accordions.html">Accordions</a></li>
+                            <li><a class="dropdown-item" href="components/tables.html">Tables</a></li>
+                            <li><a class="dropdown-item" href="components/badges.html">Badges & Labels</a></li>
+                            <li><a class="dropdown-item" href="components/list-groups.html">List Groups</a></li>
+                            <li><a class="dropdown-item" href="components/tooltips.html">Tooltips</a></li>
+                            <li><a class="dropdown-item" href="components/progress.html">Progress Bars</a></li>
+                        </ul>
+                    </li>
+
                     <li class="nav-item"><a class="nav-link" href="components/modals.html">Modals</a></li>
-                    <li class="nav-item"><a class="nav-link" href="components/tooltips.html">Tooltips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="components/progress.html">Progress B.</a></li>
                     <li class="nav-item"><a class="nav-link" href="components/spinners.html">Spinners</a></li>
-                    <li class="nav-item"><a class="nav-link" href="components/accordions.html">Accordions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="components/tables.html">Tables</a></li>
-                    <li class="nav-item"><a class="nav-link" href="components/badges.html">Badges</a></li>
-                    <li class="nav-item"><a class="nav-link" href="components/list-groups.html">Lists</a></li>
+
 
                 </ul>
             </div>
         </div>
     </nav>
+
+
 
     <section class="hero d-flex align-items-center text-center text-white">
         <div class="container">

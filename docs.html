@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docs - Bootstrap Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Component Documentation</h2>
+
+        <ul class="nav nav-tabs" id="docsTabs">
+            <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#buttons">Buttons</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#forms">Forms</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#alerts">Alerts</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#modals">Modals</a></li>
+        </ul>
+
+        <div class="tab-content mt-3">
+            <div id="buttons" class="tab-pane fade show active">
+                <h4>Buttons</h4>
+                <button class="btn btn-primary">Primary Button</button>
+                <pre><code>&lt;button class="btn btn-primary"&gt;Primary Button&lt;/button&gt;</code></pre>
+            </div>
+
+            <div id="forms" class="tab-pane fade">
+                <h4>Forms</h4>
+                <form>
+                    <input type="text" class="form-control" placeholder="Enter text">
+                </form>
+                <pre><code>&lt;input type="text" class="form-control" placeholder="Enter text"&gt;</code></pre>
+            </div>
+
+            <div id="alerts" class="tab-pane fade">
+                <h4>Alerts</h4>
+                <div class="alert alert-warning">This is a warning alert!</div>
+                <pre><code>&lt;div class="alert alert-warning"&gt;This is a warning alert!&lt;/div&gt;</code></pre>
+            </div>
+
+            <div id="modals" class="tab-pane fade">
+                <h4>Modals</h4>
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Open Modal</button>
+                <pre><code>&lt;button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"&gt;Open Modal&lt;/button&gt;</code></pre>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Example Modal</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                This is a sample modal content.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3 bg-dark text-white">
+        Developed by <strong>Dorukhan Bekdur</strong> | © 2025
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
