@@ -50,3 +50,21 @@
 .card-img-top {
     border-radius: 10px 10px 0 0;
 }
+
+.btn {
+    margin: 5px;
+}
+
+.custom-btn {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #6610f2, #007bff);
+}
