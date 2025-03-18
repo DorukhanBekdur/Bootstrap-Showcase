@@ -1,7 +1,5 @@
 # Bootstrap-Showcase
 
-# Bootstrap Showcase
-
 A collection of various Bootstrap components with different styles and themes.
 
 ## 🌍 Live Demo
