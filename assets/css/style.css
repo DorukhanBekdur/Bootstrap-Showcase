@@ -68,3 +68,17 @@
     transform: scale(1.1);
     background: linear-gradient(45deg, #6610f2, #007bff);
 }
+
+.form-control {
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+.btn {
+    margin-top: 10px;
+}
