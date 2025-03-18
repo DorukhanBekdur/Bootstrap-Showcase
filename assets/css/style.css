@@ -93,3 +93,28 @@
 .alert i {
     font-size: 1.2rem;
 }
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background: #007bff;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-footer {
+    background: #f8f9fa;
+}
+
+.popover {
+    border-radius: 10px;
+}
+
+.popover-header {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
