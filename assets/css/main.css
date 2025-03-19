@@ -1,0 +1,12 @@
+@import url('navbar.css');
+@import url('hero.css');
+@import url('components.css');
+@import url('forms.css');
+@import url('animations.css');
+@import url('utilities.css');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #212529;
+}
